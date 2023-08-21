@@ -1,0 +1,65 @@
+.Contactus {
+    background-color: #1B263B;
+    padding: 50px;
+    color: #E0E1DD;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #778DA9;
+    color: #E0E1DD;
+  }
+  
+  .form-control::placeholder {
+    color: #E0E1DD;
+  }
+  
+  .formInput {
+    margin-bottom: 10px;
+  }
+  
+  .errorMessage {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+    background-color: #415A77;
+    color: #E0E1DD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1B263B;
+  }
+  
+  .new-message-btn {
+    background-color: #415A77;
+    color: #E0E1DD;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .new-message-btn:hover {
+    background-color: #1B263B;
+  }
+  

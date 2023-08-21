@@ -1,0 +1,8 @@
+
+#dontHaveAccount{
+    margin-top: 20px;
+}
+
+.container-fluid{
+    height: calc(100vh - 331px);
+}

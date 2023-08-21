@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#main-section-lecture-page {
+  border-radius: 10px;
+  background-color: #778da9;
+  box-shadow: 0px 0px 10px black;
+  padding: 20px;
+  width: 95vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventpage {
+  background-color: #e0e1dd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgdiv {
+  background-color: #e0e1dd;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+.mapouter {
+  width: 100%;
+  height: auto;
+  background-color: #1b263b;
+}
+
+.gmap_canvas {
+  width: 445px;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  justify-content: center;
+}
+.gMaps-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#buyMeBtn {
+  margin-top: 20px;
+}
+
+.lecture-info-container {
+  width: 100%;
+}
+
+.img {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.event-info-line {
+  width: 100%;
+  display: flex;
+  font-family: "PT Serif", serif;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.info-icon {
+  margin-right: 10px;
+}
+.time {
+  margin-top: 10vh;
+  color: #bbbcc0;
+}
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 2vh;
+  color: #b6b8ba;
+}
+
+.lecture {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.firstrest {
+  width: fit-content;
+  min-width: 500px;
+  color: black;
+  background-color: #e0e1dd;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondrest {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #1b263b;
+}
+
+.description {
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+  width: 90%;
+}
+
+.rest {
+  display: flex;
+  margin-bottom: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+
+.headlinebottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  color: black;
+  padding: 32px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-bottom: 40px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  #main-section-lecture-page {
+    width: 95%;
+  }
+  .imgdiv {
+    height: 200px;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .lecture {
+    font-size: 2.5rem;
+  }
+
+  .firstrest {
+    width: 90%;
+    min-width: 0%;
+    margin-bottom: 20px;
+
+  }
+  #left-side {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondrest {
+    width: 95%;
+  }
+
+  .rest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gmap_canvas {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .description-section {
+    width: 90%;
+  }
+}
+/* 
+@media (max-width: 480px) {
+  .event-info-line {
+    width: 100%;
+    display: flex;
+    font-family: "PT Serif", serif;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  #main-section-lecture-page {
+    width: 95%;
+  }
+  .imgdiv {
+    height: 100px;
+  }
+
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .lecture {
+    font-size: 2rem;
+  }
+
+  .firstrest {
+    width: fit-content;
+
+    margin-bottom: 20px;
+  }
+  #left-side {
+    width: 100%;
+  }
+  .secondrest {
+    width: 100%;
+  }
+
+  .rest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+} */
